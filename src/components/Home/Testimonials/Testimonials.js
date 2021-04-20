@@ -11,19 +11,19 @@ const Testimonials = () => {
     const testimonialData = [
         {
             quote: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
-            name: 'Wilson Harry',
+            name: 'Wilson Harry, Father of one kid',
             from: 'California',
             img: wilson
         },
         {
             quote: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
-            name: 'Ema Gomez',
+            name: 'Ema Gomez, Sister of two brothers',
             from: 'California',
             img: ema
         },
         {
             quote: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
-            name: 'Aliza Farari',
+            name: 'Aliza Farari, Mother of two kids',
             from: 'California',
             img: aliza
         }
@@ -35,7 +35,7 @@ const Testimonials = () => {
             <div className="container">
                 <div className="section-header">
                     <h5 className="text-primary text-uppercase">Testimonial</h5>
-                    <h1>What Our Patients <br /> Says </h1>
+                    <h1>What the Parents <br /> Say </h1>
                 </div>
                 <div className="row mt-5">
                     {

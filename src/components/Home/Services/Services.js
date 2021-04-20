@@ -3,20 +3,26 @@ import cavity from '../../../images/caviry.png';
 import fluoride from '../../../images/floride.png';
 import whitening from '../../../images/whitening.png';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
+import abc from '../../../images/abc.png';
+import nursery from '../../../images/nursery.png';
+import pencil from '../../../images/pencil.png';
 
 const Services = () => {
     const serviceData = [
         {
-            name: 'Fluoride Treatment',
-            img: fluoride
+            name: 'Daycare',
+            img: abc,
+            price: 200,
         },
         {
-            name: 'Cavity Filling',
-            img: cavity
+            name: 'Nursery',
+            img: nursery,
+            price: 300
         },
         {
-            name: 'Teeth Whitening',
-            img: whitening
+            name: 'After School',
+            img: pencil,
+            price: 350
         }
     ]
 

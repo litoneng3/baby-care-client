@@ -1,32 +1,43 @@
 import React from 'react';
-import wilson from '../../../images/wilson.png';
 import BlogPost from '../BlogPost/BlogPost';
-import './Blogs.css'
+import './Blogs.css';
+import fun from '../../../images/fun.png';
+import safe from '../../../images/safe.png';
+import caring from '../../../images/caring.png';
+import Teachers from '../../../images/teachers.png';
+
 
 const Blogs = () => {
 
     const blogData = [
         {
-            title : 'Check at least a doctor in a year for your teeth',
+            title : 'Social and Fun',
             description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
             author:'Dr. Cudi',
-            authorImg : wilson,
+            authorImg : fun,
             date : '23 April 2019'
         },
         {
-            title : 'Two time brush in a day can keep you healthy',
+            title : 'Caring Stuff',
             description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
             author:'Dr. Sinthia',
-            authorImg : wilson,
+            authorImg : safe,
             date : '23 April 2019'
         },
         {
-            title : 'The tooth cancer is taking a challenge',
+            title : 'Safe Environment',
             description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
             author:'Dr. Cudi',
-            authorImg : wilson,
+            authorImg : caring,
             date : '23 April 2019'
         },
+        {
+            title : 'Qualified Teachers',
+            description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
+            author:'Dr. Cudi',
+            authorImg : Teachers,
+            date : '23 April 2019'
+        }
     ]
 
     return (
